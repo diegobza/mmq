@@ -13,12 +13,12 @@
       <menus>
         <Menu mnemonicParsing="false" text="Arquivo">
           <items>
-            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Fechar" />
           </items>
         </Menu>
-        <Menu mnemonicParsing="false" text="Ferramenta">
+        <Menu mnemonicParsing="false" onAction="#mudarPane" text="Ferramenta">
           <items>
-            <MenuItem mnemonicParsing="false" text="Delete" />
+            <MenuItem mnemonicParsing="false" text="MudarPane" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Ajuda">
@@ -28,7 +28,7 @@
         </Menu>
       </menus>
     </MenuBar>
-    <StackPane prefHeight="440.0" prefWidth="837.0" style="-fx-background-color: white" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="32.0">
+    <StackPane fx:id="spane" prefHeight="440.0" prefWidth="837.0" style="-fx-background-color: white" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="32.0">
       <effect>
         <DropShadow height="15.0" radius="7.0" width="15.0" />
       </effect>
