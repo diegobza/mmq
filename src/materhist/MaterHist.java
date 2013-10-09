@@ -4,6 +4,7 @@
  */
 package materhist;
 
+import custom.Funcoes;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -15,14 +16,17 @@ import javafx.stage.Stage;
  * @author sistemas
  */
 public class MaterHist extends Application {
-    
+
+    final String build = "0.0.1";
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Principal.fxml"));
-        
+
         Scene scene = new Scene(root);
-        
+
         stage.setScene(scene);
+        stage.setTitle("Mater Christi Históricos - build: " + build);
         stage.show();
     }
 
