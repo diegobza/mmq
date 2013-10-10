@@ -28,7 +28,7 @@ public class PrincipalController implements Initializable {
     @FXML
     private void mudarPane() {
         System.out.println("mudarpane");
-        spane.getChildren().get(0).toFront();
+        spane.getChildren().set(0, pInicial);
     }
 
     private void initPanes() {
@@ -36,7 +36,7 @@ public class PrincipalController implements Initializable {
             pInicial = (Node) FXMLLoader.load(getClass().getResource("/panes/PaneInicial.fxml"));
             pPesquisaAluno = (Node) FXMLLoader.load(getClass().getResource("/panes/PanePesquisaAluno.fxml"));
         } catch (IOException ex) {
-            ex.printStackTrace();
+            System.out.println("ERRO: Inicialização dos panes.");
         }
     }
 

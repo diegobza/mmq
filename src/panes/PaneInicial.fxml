@@ -4,6 +4,11 @@
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="837.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="panes.PaneInicialController" />
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="837.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="panes.PaneInicialController">
+  <children>
+    <ImageView id="ivew" fx:id="iview" fitHeight="176.0" fitWidth="147.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="345.0" AnchorPane.rightAnchor="345.0" />
+  </children>
+</AnchorPane>

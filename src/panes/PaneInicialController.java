@@ -6,7 +6,10 @@ package panes;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 
 /**
  * FXML Controller class
@@ -15,11 +18,11 @@ import javafx.fxml.Initializable;
  */
 public class PaneInicialController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
+    @FXML
+    private ImageView iview;
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        iview.setImage(new Image(getClass().getResourceAsStream("/imagens/logo_topo.png")));
     }    
 }
