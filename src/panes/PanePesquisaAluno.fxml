@@ -6,4 +6,4 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="837.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="panes.PanePesquisaAlunoController" />
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="837.0" style="-fx-background-color: lightgrey" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="panes.PanePesquisaAlunoController" />
