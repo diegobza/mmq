@@ -6,4 +6,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="837.0" style="-fx-background-color: lightgrey" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="panes.PanePesquisaAlunoController" />
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="837.0" style="-fx-background-color: lightgrey" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="panes.PanePesquisaAlunoController">
+  <children>
+    <TextField layoutX="67.0" layoutY="56.0" prefWidth="334.0" promptText="digite o nome do aluno" />
+    <Label layoutX="21.0" layoutY="59.0" text="Nome" />
+    <TableView layoutY="97.0" prefHeight="329.0" prefWidth="380.0" AnchorPane.rightAnchor="436.0">
+      <columns>
+        <TableColumn maxWidth="75.0" prefWidth="75.0" text="Código" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="304.0" text="Nome" />
+      </columns>
+    </TableView>
+    <Separator layoutX="418.0" layoutY="14.0" orientation="VERTICAL" prefHeight="412.0" />
+  </children>
+</AnchorPane>
